@@ -29,7 +29,7 @@ body{
 	margin: 0 auto;
 	padding: 0 10px;
 }
-
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* header styles start */
 .header{
 	background: #332208;
@@ -67,8 +67,13 @@ body{
 	color: #fefefe;
 }
 /* header styles end */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 /* section top styles start */
+
+.top{
+	padding-bottom: 100px;
+}
 
 .top__heading {
 	display: flex;
@@ -199,3 +204,64 @@ body{
 	margin-left: 20px;
 }
 /* section top styles end */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* section rent start */
+.rent {
+	padding: 100px 0;
+}
+
+.rent__inner {
+	display: flex;
+	justify-content: space-between;
+}
+.rent__content {
+	width: 300px;
+	margin-right: 50px;
+}
+.rent__title {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 30px;
+}
+.rent__text {
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 20px;
+}
+.rent__text + .rent__text{
+	margin-bottom: 40px;
+}
+
+.rent__item {
+	border: 1px solid #332208;
+	width: 250px;
+	padding: 0 35px 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 50px;
+}
+.rent__item-num {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 96px;
+	line-height: 115px;
+	color: #181818;
+	opacity: 0.05;
+}
+.rent__item-title {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: auto;
+}
+.rent__item-text {
+	font-size: 16px;
+	line-height: 19px;
+}
+/* section rent start end */
