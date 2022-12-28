@@ -43,11 +43,11 @@ body{
 .menu__list{
 	display: flex;
 }
-.mune__item:not(:last-child){
+.menu__item:not(:last-child){
 	margin-right: 30px;
 }
 
-.mune__item-link{
+.menu__item-link{
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 21px;
@@ -57,7 +57,7 @@ body{
 	border-bottom: 1px solid transparent;
 }
 
-.mune__item-link:hover{
+.munu__item-link:hover{
 	border-bottom: 1px solid  #fefefe;
 }
 .phone{
@@ -463,11 +463,43 @@ body{
 	line-height: 19px;
 	margin-top: 50px;
 	text-transform: uppercase;
-	border: none;
+	border: 1px solid transparent;
 	display: inline-block;
 	color: #FEFEFE;
 	background-color: #C5AC2D;
 	padding: 16px 36px 15px;
+	transition: all .5s;
+}
 
+.feedback__btn:hover{
+	background: #FEFEFE;
+	color:#C5AC2D ;
+	border: 1px solid #C5AC2D;
 }
 	/* feedback style end */
+	/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+	/* footer style end */
+	.footer {
+		padding: 100px 0 24px;
+		background: #332208;
+}
+
+.footer__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 21px;
+}
+
+.footer_social {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer__social-item {
+		margin: 0 15px;
+}
+
+	/* footer style end */
+
