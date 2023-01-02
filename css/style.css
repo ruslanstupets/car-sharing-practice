@@ -771,5 +771,11 @@ body{
 		.rent__item{
 			margin: 30px 0;
 		}
+
+		.feedback__btn{
+			margin-right: 26px;
+			margin-left: 32px;
+			padding: 10px 25px 10px;
+		}
 	}
 
